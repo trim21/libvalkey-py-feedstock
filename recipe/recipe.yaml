@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: libvalkey-py
-  version: "4.0.1"
+  version: "4.1.0"
 
 package:
   name: "${{ name }}"
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/l/libvalkey/libvalkey-${{ version }}.tar.gz
-  sha256: "fe60ef535bc826fc35f4019228a0a46bdce8b41fd6013a7591e822a8a17c3170"
+  sha256: "b88231e09600909723cd07949982cc7758298027d86504d948a223075f0022f4"
 
 build:
-  number: 3
+  number: 0
   script:
     env:
       PIP_USE_PEP517: "1"
